@@ -80,7 +80,7 @@ function searchPhotos(searchText) {
             for (n = 0; n < image_paths.length; n++) {
                 images_list = image_paths[n]["url"].split('/');
                 imageName = images_list[images_list.length - 1];
-                photosDiv.innerHTML += '<figure class="inline-block"><img src="' + image_paths[n]["url"] + '" style="width:100%"><figcaption>' + imageName + '</figcaption></figure>';
+                photosDiv.innerHTML += '<figure><img src="' + image_paths[n]["url"] + '" style="width:25%"><figcaption>' + imageName + '</figcaption></figure>';
             }
         }).catch(function(result) {
             var photosDiv = document.getElementById("photos_search_results");

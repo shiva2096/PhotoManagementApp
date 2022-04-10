@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion : '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Resources:
+  LF1Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: s3-upload.lambda_handler
+      Runtime: python3.6
+      CodeUri: ./Lambdas/
+  LF2Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: s3-search.lambda_handler
+      Runtime: python3.6
+      CodeUri: ./Lambdas/

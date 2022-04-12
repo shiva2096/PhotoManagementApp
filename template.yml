@@ -5,11 +5,11 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: LF1_index_img.lambda_handler
-      Runtime: python3.6
+      Runtime: python3.8
       CodeUri: ./Lambdas/
   LF2Function:
     Type: AWS::Serverless::Function
     Properties:
       Handler: LF2_search_photot.lambda_handler
-      Runtime: python3.6
+      Runtime: python3.8
       CodeUri: ./Lambdas/

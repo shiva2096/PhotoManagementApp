@@ -60,7 +60,6 @@ def lambda_handler(event, context):
         print(r.text)
     except Exception as e:
         print(e)
-        print("Error runnning lambda")
         print('Error getting object {} from bucket {}. Make sure they exist and your bucket is in the same region as this function.'.format(key, bucket))
         raise e
         

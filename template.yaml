@@ -6,12 +6,12 @@ Resources:
     Properties:
       Handler: lambda_function.lambda_handler
       Runtime: python3.8
-      FunctionName: LF1_index_img_new
+      FunctionName: LF1_index_img
       CodeUri: ./Lambda1/
   LF2Function:
     Type: AWS::Serverless::Function
     Properties:
       Handler: lambda_function.lambda_handler
       Runtime: python3.8
-      FunctionName: LF2_seach_photot_new
+      FunctionName: LF2_seach_photot
       CodeUri: ./Lambdas/

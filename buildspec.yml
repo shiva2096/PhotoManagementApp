@@ -5,7 +5,7 @@ phases:
         python: 3.8
   build:
     commands:
-      - export BUCKET=photoapp-artifacts
+      - export BUCKET=photoapp-artifacts-new
       - aws cloudformation package --template-file template.yaml --s3-bucket $BUCKET --output-template-file outputtemplate.yaml
 artifacts:
   type: zip

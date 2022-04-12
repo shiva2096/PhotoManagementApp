@@ -5,7 +5,7 @@ phases:
         python: 3.8
   build:
     commands:
-      - export BUCKET=Lambda_Pipeline-us-east-1
+      - export BUCKET=codepipeline-us-east-1-893972730980
       - aws cloudformation package --template-file template.yaml --s3-bucket $BUCKET --output-template-file outputtemplate.yaml
 artifacts:
   type: zip

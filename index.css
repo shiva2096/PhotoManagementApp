@@ -1,0 +1,223 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.photos_title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+body {
+    font-family: "Gill Sans", sans-serif;
+    color: black;
+    background-color: #FF8C32;
+}
+
+.container-fluid {
+    padding: 30px 50px;
+
+}
+
+.search_photos {
+    width: 575px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 30px;
+
+}
+
+#search_photos {
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#search_photos input {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+}
+
+#search_photos button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 3rem;
+    text-align: center;
+    font-size: 1.75rem;
+    cursor: pointer;
+    color: #333;
+}
+
+.search_info {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+
+.inline-block {
+    display: inline-block;
+    width: 30%;
+ }
+
+ 
+ /* CSS */
+ .button-3 {
+   appearance: none;
+   background-color: #2ea44f;
+   border: 1px solid rgba(27, 31, 35, .15);
+   border-radius: 6px;
+   box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+   box-sizing: border-box;
+   color: #fff;
+   cursor: pointer;
+   display: inline-block;
+   font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 20px;
+   padding: 6px 16px;
+   position: relative;
+   text-align: center;
+   text-decoration: none;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   vertical-align: middle;
+   white-space: nowrap;
+ }
+ 
+ .button-3:focus:not(:focus-visible):not(.focus-visible) {
+   box-shadow: none;
+   outline: none;
+ }
+ 
+ .button-3:hover {
+   background-color: #2c974b;
+ }
+ 
+ .button-3:focus {
+   box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+   outline: none;
+ }
+ 
+ .button-3:disabled {
+   background-color: #94d3a2;
+   border-color: rgba(27, 31, 35, .1);
+   color: rgba(255, 255, 255, .8);
+   cursor: default;
+ }
+ 
+ .button-3:active {
+   background-color: #298e46;
+   box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+ }
+
+
+ .button-23 {
+   background-color: #FF8C32;
+   border: 1px solid #222222;
+   border-radius: 8px;
+   box-sizing: border-box;
+   color: #222222;
+   cursor: pointer;
+   display: inline-block;
+   font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 20px;
+   margin: 0;
+   outline: none;
+   padding: 13px 23px;
+   position: relative;
+   text-align: center;
+   text-decoration: none;
+   touch-action: manipulation;
+   transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+   user-select: none;
+   -webkit-user-select: none;
+   width: auto;
+ }
+ 
+ .button-23:focus-visible {
+   box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+   transition: box-shadow .2s;
+ }
+ 
+ .button-23:active {
+   background-color: #F7F7F7;
+   border-color: #000000;
+   transform: scale(.96);
+ }
+ 
+ .button-23:disabled {
+   border-color: #DDDDDD;
+   color: #DDDDDD;
+   cursor: not-allowed;
+   opacity: 1;
+ }
+
+
+
+ .button-22 {
+   align-items: center;
+   appearance: button;
+   background-color: #0276FF;
+   border-radius: 8px;
+   border-style: none;
+   box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+   box-sizing: border-box;
+   color: #fff;
+   cursor: pointer;
+   display: flex;
+   flex-direction: row;
+   flex-shrink: 0;
+   font-family: "RM Neue",sans-serif;
+   font-size: 100%;
+   line-height: 1.15;
+   margin: 0;
+   padding: 10px 21px;
+   text-align: center;
+   text-transform: none;
+   transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+ }
+ 
+ .button-22:active {
+   background-color: #006AE8;
+ }
+ 
+ .button-22:hover {
+   background-color: #1C84FF;
+ }
+
+@media (max-width: 1200px) {
+    #search_photos {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 30px 35px;
+    }
+
+    #search_photos {
+        width: 100%;
+    }
+
+    .info {
+        font-size: 0.5rem;
+    }
+}
